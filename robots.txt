@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://given131.github.io/sitemap.xml
+Sitemap: https://given131.github.iogiven131/sitemap.xml
