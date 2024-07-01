@@ -40,11 +40,12 @@ layout: default
 
         <!-- News -->
         {% if page.news and site.announcements.enabled %}
+            <br>
+            <br>
             <h2>
                 <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
             </h2>
             {% include news.liquid limit=true %}
-            <br>
             <br>
             <br>
         {% endif %}
@@ -56,6 +57,15 @@ layout: default
             </h2>
             {% include selected_papers.liquid %}
             <br>
+            <br>
+        {% endif %}
+
+        <!-- education  -->
+        {% if page.news and site.announcements.enabled %}
+            <h2>
+                <a href="{{ '/career/' | relative_url }}" style="color: inherit">Work Experience</a>
+            </h2>
+            {% include career.liquid limit=true %}
             <br>
             <br>
         {% endif %}
