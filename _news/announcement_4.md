@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preprint of the paper **How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models** is now available on [arXiv](https://arxiv.org/abs/2407.00369) :fire: 
+Preprint of the paper *How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models* is now available on [arXiv](https://arxiv.org/abs/2407.00369) :fire: 
