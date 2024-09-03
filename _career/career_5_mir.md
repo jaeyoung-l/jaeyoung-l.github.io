@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-MIR Lab, Research Intern (Advisor: Dr.Youngjae Yu) 
+MIR Lab (Yonsei University), Research Intern (Advisor: Dr.Youngjae Yu) 

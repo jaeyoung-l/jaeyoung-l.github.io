@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-Mars Lab, Research Intern (Advisor: Dr.Saadia Gabriel) 
+Mars Lab (University of California, Los Angeles), Research Intern (Advisor: Dr.Saadia Gabriel) 
