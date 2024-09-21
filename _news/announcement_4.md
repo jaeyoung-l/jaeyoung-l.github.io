@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models*[arXiv](https://arxiv.org/abs/2407.00369) has been accepted to EMNLP 2024 Findings :tada: 
+Our paper [**How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models**](https://arxiv.org/abs/2407.00369) has been accepted to EMNLP 2024 Findings :tada: 
