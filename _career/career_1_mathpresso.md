@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mathpresso, Software Engineer Intern <br/>
+Mathpresso, Software Engineering Intern <br/>
