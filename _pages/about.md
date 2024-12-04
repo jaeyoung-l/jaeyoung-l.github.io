@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: canyon_square.jpg
+  image: nyc.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
