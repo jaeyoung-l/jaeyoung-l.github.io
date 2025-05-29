@@ -5,9 +5,20 @@
     title={Don't Look Only Once: Towards Multimodal Interactive Reasoning with Selective Visual Revisitation},
     abstract={We present v1, a lightweight extension to Multimodal Large Language Models(MLLMs) that enables selective visual revisitation during inference. While current MLLMs typically consume visual input only once and reason purely over internal memory, v1 introduces a simple point-and-copy mechanism that allows the model to dynamically retrieve relevant image regions throughout the reasoning process. This mechanism augments existing architectures with minimal modifications, enabling contextual access to visual tokens based on the model’s evolving hypotheses. To train this capability, we construct v1g, a dataset of 300K multimodal reasoning traces with interleaved visual grounding annotations. Experiments on three multimodal mathematical reasoning benchmarks—MathVista, MathVision, and MathVerse—demonstrate that v1 consistently improves performance over comparable baselines, particularly on tasks requiring fine-grained visual reference and multi-step reasoning. Our results suggest that dynamic visual access is a promising direction for enhancing grounded multimodal reasoning. Code, models, and data will be released to support future research.},
     author={Jiwan Chung and Junhyeok Kim and Siyeol Kim and Jaeyoung Lee and Minsoo Kim and Youngjae Yu},
-    journal={Preprint},
+    journal={arxiv},
     year={2025},
     arxiv={2505.18842},
+    selected={true}
+}
+
+@misc{rahman2025aidebate-aids-assessment,
+    abbr={Preprint},
+    title={AI Debate Aids Assessment of Controversial Claims},
+    abstract={As AI grows more powerful, it will increasingly shape how we understand the world. But with this influence comes the risk of amplifying misinformation and deepening social divides—especially on consequential topics like public health where factual accuracy directly impacts well-being. Scalable Oversight aims to ensure AI truthfulness by enabling humans to supervise systems that may exceed human capabilities—yet humans themselves hold different beliefs and biases that impair their judgment. We study whether AI debate can guide biased judges toward the truth by having two AI systems debate opposing sides of controversial COVID19 factuality claims where people hold strong prior beliefs. We conduct two studies: one with human judges holding either mainstream or skeptical beliefs evaluating factuality claims through AI-assisted debate or consultancy protocols, and a second examining the same problem with personalized AI judges designed to mimic these different human belief systems. In our human study, we find that debate—where two AI advisor systems present opposing evidence-based arguments—consistently improves judgment accuracy and confidence calibration, outperforming consultancy with a single-advisor system by 10% overall. The improvement is most significant for judges with mainstream beliefs (+15.2% accuracy), though debate also helps skeptical judges who initially misjudge claims move toward accurate views (+4.7% accuracy). In our AI judge study, we find that AI judges with humanlike personas achieve even higher accuracy (78.5%) than human judges (70.1%) and default AI judges without personas (69.8%), suggesting their potential for supervising frontier AI models. These findings highlight AI debate as a promising path toward scalable, bias-resilient oversight—leveraging both diverse human and AI judgments to move closer to truth in contested domains.},
+    author={Salman Rahman and Sheriff Issaka and Ashima Suvarna and Genglin Liu and James Shiffer and Jaeyoung Lee and Md Rizwan Parvez and Hamid Palangi and Shi Feng and Nanyun Peng and Yejin Choi and Julian Michael and Liwei Jiang and Saadia Gabriel},
+    journal={arxiv},
+    year={2025},
+    arxiv={},
     selected={true}
 }
 
@@ -17,7 +28,7 @@
     title={How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models},
     abstract={Given the growing influx of misinformation across news and social media, there is a critical need for systems that can provide effective real-time verification of news claims. Large language or multimodal model based verification has been proposed to scale up online policing mechanisms for mitigating spread of false and harmful content. While these can potentially reduce burden on human fact-checkers, such efforts may be hampered by foundation model training data becoming outdated. In this work, we test the limits of improving foundation model performance without continual up- dating through an initial study of knowledge transfer using either existing intra- and inter- domain benchmarks or explanations generated from large language models (LLMs). <br/><br/> We evaluate on 12 public benchmarks for fact-checking and misinformation detection as well as two other tasks relevant to content moderation - toxicity and stance detection. Our results on two recent multi-modal fact-checking benchmarks, Mocheg and Fakeddit, indicate that knowledge transfer strategies can improve Fakeddit performance over the state-of-the-art by up to 1.7% and Mocheg performance by up to 2.9%.},
     author = {Jaeyoung Lee and Ximing Lu and Jack Hessel and Faeze Brahman and Youngjae Yu and Yonatan Bisk and Yejin Choi and Saadia Gabriel},
-    journal={EMNLP 2024 Findings},
+    journal={EMNLP Findings},
     year={2024},
     arxiv={2407.00369},
     selected={true}
