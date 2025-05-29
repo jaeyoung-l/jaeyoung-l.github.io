@@ -39,16 +39,16 @@ layout: default
         <div class="clearfix">{{ content }}</div>
 
         <!-- News -->
-        {% if page.news and site.announcements.enabled %}
-            <br>
-            <br>
-            <h2>
-                <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-            </h2>
-            {% include news.liquid limit=true %}
-            <br>
-            <br>
-        {% endif %}
+        {% comment %}{% if page.news and site.announcements.enabled %}{% endcomment %}
+            {% comment %}<br>{% endcomment %}
+            {% comment %}<br>{% endcomment %}
+            {% comment %}<h2>{% endcomment %}
+                {% comment %}<a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>{% endcomment %}
+            {% comment %}</h2>{% endcomment %}
+            {% comment %}{% include news.liquid limit=true %}{% endcomment %}
+            {% comment %}<br>{% endcomment %}
+            {% comment %}<br>{% endcomment %}
+        {% comment %}{% endif %}{% endcomment %}
 
         <!-- Selected papers -->
         {% if page.selected_papers %}
