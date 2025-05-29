@@ -58,14 +58,6 @@ layout: default
             <br>
         {% endif %}
 
-        <!-- education  -->
-        {% if site.announcements.enabled %}
-            <h2>
-                <a href="{{ '/education/' | relative_url }}" style="color: inherit">Education</a>
-            </h2>
-            {% include education.liquid limit=true %}
-        {% endif %}
-
         <!-- Social -->
         {% if page.social %}
             <div class="social">
