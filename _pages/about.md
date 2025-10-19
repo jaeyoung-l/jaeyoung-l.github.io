@@ -15,6 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an undergraduate student at Seoul National University, majoring in Computer Science and Engineering. I am currently doing research on interesting topics in MLLM/LLM, advised by [Saadia Gabriel](https://saadiagabriel.com/) and [Youngjae Yu](https://yj-yu.github.io/home/). Before, I worked as a software engineer for 3 years at [Hyperconnect](https://hyperconnect.com/en/), a company acquired by [Match Group](https://mtch.com/). I mostly worked on developing an AI content moderation system that employed a human-in-the-loop approach.
+I am currently working as a research fellow at the University of Oxford, focusing on automating mechanistic interpretability. I am also broadly interested in interpretability across different modalities.  
 
-Lately, I've been getting more interested in model interpretability across different modalities.
+I received my B.S. in Computer Science and Engineering from Seoul National University. I have conducted research on multimodal and large language models (MLLM/LLM), advised by [Saadia Gabriel](https://saadiagabriel.com/) and [Youngjae Yu](https://yj-yu.github.io/home/).  
+
+Previously, I worked as a software engineer for 3 years at [Hyperconnect](https://hyperconnect.com/en/), a company acquired by [Match Group](https://mtch.com/), where I developed an AI content moderation system employing a human-in-the-loop approach.  
