@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently working as a research fellow at the University of Oxford, focusing on automating mechanistic interpretability. I am also broadly interested in interpretability across different modalities.  
+I am currently working on automating mechanistic interpretability. I am also broadly interested in interpretability across different modalities.  
 
 I received my B.S. in Computer Science and Engineering from Seoul National University. I have conducted research on multimodal and large language models (MLLM/LLM), advised by [Saadia Gabriel](https://saadiagabriel.com/) and [Youngjae Yu](https://yj-yu.github.io/home/).  
 
