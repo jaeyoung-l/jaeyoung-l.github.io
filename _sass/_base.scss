@@ -723,6 +723,33 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
+    }
+  }
+
+  // New publication layout styles
+  .publication-thumbnail {
+    .abbr {
+      margin-bottom: 0.5rem;
+    }
+
+    abbr {
+      display: inline-block;
+      background-color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+
+      a {
+        color: white;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .award {
+      color: var(--global-theme-color) !important;
+      border: 1px solid var(--global-theme-color);
+    }
 
       .title {
         width: 100%;
