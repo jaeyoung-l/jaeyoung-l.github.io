@@ -664,7 +664,7 @@ footer.sticky-bottom {
 
   .publication-content {
     flex: 1;
-    width: 100%;
+    min-width: 0;
   }
 
   h1 {
