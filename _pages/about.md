@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I aim to elicit model behavior through the lens of model interpretability, which I refer to as `Interpretability + X` where `X` includes multimodality, agents, training, and alignment.
+I aim to elicit model behavior through the lens of interpretability, which I refer to as `Interpretability + X` where `X` includes multimodality, agents, training, and alignment.
 Previously, I have worked on multimodal language models including reasoning, fact-checking and retrieval.
 
 I received my B.S. in Computer Science and Engineering from Seoul National University. Also, I worked as a software engineer for 3 years at [Hyperconnect](https://hyperconnect.com/en/) (acquired by [Match Group](https://mtch.com/) ), where I developed an human-in-the-loop AI content moderation system.
