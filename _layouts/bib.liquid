@@ -78,23 +78,25 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
+          {% if forloop.first == false %},&#32;{% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <em class="text-nowrap">
             {{- author.first }}
             {{ author_last_html -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
+            <a href="{{coauthor_url}}" class="text-nowrap">
               {{- author.first }}
               {{ author_last_html -}}
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            <span class="text-nowrap">
+              {{- author.first }}
+              {{ author_last_html -}}
+            </span>
           {% endif %}
         {%- endif -%}
       {% endfor %}
