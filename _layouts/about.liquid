@@ -43,6 +43,7 @@ layout: default
         {% if page.selected_papers %}
             <h2>
                 <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
+                <small class="text-muted" style="font-size: 0.875rem; font-weight: normal">(* equal contribution)</small>
             </h2>
             {% include selected_papers.liquid %}
             <br>

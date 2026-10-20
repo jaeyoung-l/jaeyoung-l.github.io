@@ -3,7 +3,12 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.title_note %}
+        <small class="text-muted" style="font-size: 0.875rem; font-weight: normal">{{ page.title_note }}</small>
+      {% endif %}
+    </h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 
