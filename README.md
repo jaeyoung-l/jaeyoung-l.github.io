@@ -28,7 +28,10 @@ Both the publications page and selected publications use the `preview` field in
 `_bibliography/papers.bib`. Store the paper's main figure in
 `assets/img/publication_preview/` and set `preview={filename.png}`. The current
 previews are cropped from Figure 1 of each paper linked by its `arxiv` field.
-Figures keep their original proportions and can be clicked to zoom.
+Figures display at 300px wide on desktop and use the available width on mobile.
+They load the full-resolution PNG directly, preserve their original proportions,
+and can be clicked to zoom. Export previews at least 1800px wide for sharp text
+on high-density screens and when enlarged.
 
 ## User community
 
