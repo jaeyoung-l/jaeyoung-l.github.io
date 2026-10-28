@@ -22,6 +22,14 @@
 
 </div>
 
+## Publication figures
+
+Both the publications page and selected publications use the `preview` field in
+`_bibliography/papers.bib`. Store the paper's main figure in
+`assets/img/publication_preview/` and set `preview={filename.png}`. The current
+previews are cropped from Figure 1 of each paper linked by its `arxiv` field.
+Figures keep their original proportions and can be clicked to zoom.
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!

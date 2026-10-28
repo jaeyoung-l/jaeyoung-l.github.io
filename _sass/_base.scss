@@ -660,6 +660,28 @@ footer.sticky-bottom {
   .publication-thumbnail {
     flex-shrink: 0;
     width: 150px;
+
+    figure {
+      margin: 0;
+    }
+
+    .preview {
+      width: 100%;
+      height: auto;
+      padding: 0.25rem;
+      background-color: white;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .publication-entry {
+      flex-direction: column;
+    }
+
+    .publication-thumbnail {
+      width: 200px;
+      max-width: 100%;
+    }
   }
 
   .publication-content {
@@ -698,9 +720,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;
@@ -878,7 +897,6 @@ footer.sticky-bottom {
     border-color: var(--global-highlight-color);
   }
 }
-
 
 // Rouge Color Customization
 figure.highlight {
