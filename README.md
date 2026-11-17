@@ -34,6 +34,9 @@ They load the full-resolution PNG directly, preserve their original proportions,
 and can be clicked to zoom. Export previews at least 1800px wide for sharp text
 on high-density screens and when enlarged.
 
+Publication entries use `bibtex_show={true}` to display a BIBTEX button next to
+ABS and ARXIV. Clicking it expands the formatted citation for copying.
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
